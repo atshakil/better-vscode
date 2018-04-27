@@ -1,0 +1,4 @@
+# !/usr/bin/env bash
+
+cp ~/.config/Code/User/* .config/Code/User/
+
