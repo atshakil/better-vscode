@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Default Light+",
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.lint": {
+    "rubocop": true,
+  },
+  "terminal.integrated.fontSize": 15,
+}

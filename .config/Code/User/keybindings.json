@@ -1,0 +1,66 @@
+[
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace"
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "filesExplorer.findInFolder"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.previousEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.previousEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.nextEditor",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.nextEditor",
+        "when": "editorFocus"
+    }
+]
